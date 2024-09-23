@@ -1,6 +1,6 @@
-# YOLO: Detecting Signage and Speech Generation
+# YOLO: Detecting Signage and Speech Generation for the Visually Impaired
 
-This repository contains the implementation of a system that utilizes YOLO (You Only Look Once) for detecting signage in images or video streams, and subsequently generating corresponding speech for accessibility purposes.
+This repository contains the implementation of a deep learning-based system that leverages YOLO for detecting indoor signage and integrates text-to-speech (TTS) technology to assist visually impaired individuals by providing real-time auditory feedback about detected signs.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -15,7 +15,9 @@ This repository contains the implementation of a system that utilizes YOLO (You 
 
 ## Project Overview
 
-This project is aimed at improving accessibility by detecting signage from images or videos and converting the detected text into speech. The project uses the YOLO object detection algorithm to detect and recognize signage. Once recognized, the system generates speech from the detected text, making it easier for visually impaired users to understand signage in their surroundings.
+This project introduces a system that aids visually impaired individuals in indoor navigation by recognizing critical signage, such as restrooms, exits, and elevators, and converting the detected information into speech. The system employs the YOLO object detection algorithm combined with TTS technologies like gTTS or pyttsx3 to generate real-time auditory descriptions of signage.
+
+This tool enhances the independence and safety of visually impaired individuals by allowing them to navigate complex environments without assistance.
 
 ## Features
 
