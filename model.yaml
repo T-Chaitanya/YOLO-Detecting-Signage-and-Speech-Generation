@@ -1,0 +1,6 @@
+path: '/Users/chaitanyatata/PycharmProjects/Yolo_v8_Model_FP/'
+train: 'indoor-yolo-v8/train/images'
+val: 'indoor-yolo-v8/valid/images'
+
+nc: 17
+names: ['accessibility', 'door', 'elevator sign', 'elevator', 'exit sign', 'fire alarm', 'fire extinguisher', 'handle', 'left arrow', 'men-s washroom', 'person', 'push handle', 'right arrow', 'stair sign', 'trash can', 'water dispenser', 'women-s washroom']
